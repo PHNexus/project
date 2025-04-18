@@ -2,26 +2,33 @@ body{
     background-color: white;
     text-align: center;
     margin: auto;
-   
+   display: flex;
+   display: block;
 }
 #lg1{
+    display: flex;
+    display: inline-block;
 border: 1px solid black;
 border-radius: 15px;
-margin:auto;
-margin-top: 10%;
-margin-left: 33%;
+margin: auto;
+margin-right: 50%;
+margin-top: 7%;
 margin-bottom: 10%;
-width: 35%;
+padding-left: 5%;
+padding-right: 5%;
 background-color: rgb(148, 148, 148);
 }
 #lg2{
+    display: flex;
+ display: inline-block;
 border: 1px solid black;
 border-radius: 15px;
 background-color: rgb(104, 104, 104);
-margin-left:13%;
-margin-right: 13%;
+padding-left: 5%;
+padding-right: 5%;
 padding-top: 5%;
 padding-bottom: 5%;
+
 }
 a{
 color: black;
@@ -32,3 +39,4 @@ border: 1px solid black;
 border-radius: 15px;
 margin-bottom: 5%;
 }
+

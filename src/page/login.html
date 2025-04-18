@@ -7,20 +7,68 @@
   <link rel="stylesheet" href="../styles/login.css">
   <link rel="stylesheet" href="../styles/global.css">
 </head>
+<style>
+  .btn1{
+      background-color: black;
+      border: 1px solid black;
+      border-radius: 35px;
+  }
+  #navdiv{
+      text-align: end;
+  }
+  #navdiv a {
+      color: rgb(255, 255, 255);
+  }
+
+  #bar{
+      background-color: black;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+      
+  }
+
+  .lg1{
+      font-size: medium;
+      font-weight: bold;
+  }
+
+</style>
 <body>
+  <header>
+    <nav class="navbar">
+        <div id="navdiv">
+    <button class="btn1">
+        <a class="lg1" href="../page/login.html">Login</a>
+    </button>
+    <div id="bar"><ul>
+        <li>
+            <a href="">Home</a>
+            <a href="">Categories</a>
+            <a href="">Social</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+        </li>
+    </ul></div>
+  
+        </div>
+    </nav>
+</header>
+
     <div id="lg1">
    
             <h1>Login</h1>
             <div id="lg2"> 
             
-             <input type="email" id="email" placeholder="email">
+             <input type="email" id="email" placeholder="email"><br>
              <input type="password" id="senha" placeholder="password">
             
             </div>
              <hr>
              <p>Clique Abaixo</p>
-            <button class="btn"><a href="/home.html">continuar</a></button>
-       
+            <button class="btn"><a href="../page/teste.html">continuar</a></button>
+      
     </div>
 
 </body>
