@@ -1,27 +1,44 @@
-body{
-    background-image: url(../assets/images/apple-m3-macbook-pro-default-modified-11-10-2024-1728714492-hd-wallpaper\ \(21\).jpg);
-}
-#lg{
-    margin: auto;
-    font-size: x-large;
-    font-weight: bold;
-    font-style: normal;
-   padding-left: 90%;
-   
-}
-.links{
-    font-size: large;
-    background-color: rgba(0, 0, 0, 0.26);
+.btn1{
+    background-color: black;
     border: 1px solid black;
-    border-radius: 15px;
-    text-align: center;
-    margin-left: 13%;
-    margin-right: 13%;
+    border-radius: 35px;
 }
-.lg1{
+#navdiv{
+    text-align: end;
+}
+#navdiv a {
     color: rgb(255, 255, 255);
 }
-a{
-    margin: 25px;
-    color: rgba(255, 255, 255, 0.452);
+
+#bar{
+    background-color: black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.lg1{
+    font-size: medium;
+    font-weight: bold;
+}
+.t1{
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 10%;
+}
+#tx1{
+margin-top: 2%;
+margin-left: 2%;
+}
+.btn2{
+background-color: black;
+    border: 1px solid black;
+    border-radius: 35px;
+
+}
+.lg2{
+font-size: medium;
+font-weight: bold;  
 }
